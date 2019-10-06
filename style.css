@@ -1,0 +1,272 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	background-color: rgba(51, 51, 51, 0.7);
+}
+section{
+	background-image: url("./images/openWater.jpg");
+	background-size: cover;
+	color: white;
+	height: 500px;
+	position: relative;
+}
+var{
+	display: flex;
+	flex-direction: column;
+	text-shadow: 2px 2px black;
+}
+.logohead{
+	background-position: center center;
+ 	background-image: url("download.png");
+ 	background-size: auto 100%;
+	width: 30px;
+	height: 30px;
+	margin: 0 0 0 40px;
+}
+.logo1{
+
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 5px;
+}
+.logo2{
+	font-family: 'Muli', serif;
+	text-transform: uppercase;
+	margin: -10px 0 0 18px;
+	font-size: 12px;
+	padding: 5px;
+}
+.topbar{
+	font-family: 'Muli';
+	list-style: none;
+}
+.ultop{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: baseline;
+}
+li{
+	margin: 0px 5px;
+	text-transform: uppercase;
+	font-family: 'Muli';
+	font-size: 14px;
+}
+.menu{	
+	border: 2px;
+	border-color: rgba(51, 51, 51, 0.8);
+	padding: 10px;
+	transition: all 300ms ease;
+	background-color: (51, 51, 51, 0.8)
+}
+
+.menu:hover{
+	color: rgba(51, 51, 51, 0.9);
+	border: 2px;
+	/*border-color: white;
+	background-color: white;
+	padding: 10px;*/
+}
+figure{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	left: 80px;
+	bottom: 50px;
+	text-shadow: 2px 2px black;
+}
+.logofig{
+	background-size: auto 100%;
+	background-position: center;
+	background-image: url("download.png");
+	padding: 10px 10px;
+	height: 55px;
+	width: 55px;
+	margin: 0 0 -15px 70px;
+}
+h1{
+	font-family: 'Crimson Text', serif;
+	text-transform: uppercase;
+	text-align: justify;
+	font-size: 35px;
+	letter-spacing: 6.5px;
+	font-weight: bolder;
+	margin: -5px 0 0 -15px;
+
+}
+h2{
+	font-family: 'Muli';
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: justify;
+	letter-spacing: 6px;
+	margin: -7px 0 0 -15px;
+}
+h6{
+	font-family: 'Crimson Text';
+	font-style: italic;
+	font-size: 13px;
+	margin: -5px 0 0 -15px;
+}
+article{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin: -50px 0 30px 0;
+}
+h3{
+	display: flex;
+	flex-direction: column;
+	font-family: 'Muli';
+	text-align: center;
+	font-size: 50px;
+	margin-top: 15%;
+	text-transform: uppercase;
+}
+.experience{
+	font-family: 'Alex Brush', cursive;
+	font-size: 70px;
+	text-transform: lowercase;
+	color: rgb(211, 174, 101);
+}
+h5{
+	margin: -30px 0 20px 0;
+	font-family: 'Muli';
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+}
+p{
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	margin: 0 100px 50px 100px;
+}
+button {
+	font-family: Muli;
+	width: 100px;
+	height: 40px;
+	text-transform: uppercase;
+	background-color: transparent;
+	border-width: 2px;
+	border-color: black;
+	font-size: 12px;
+}
+.middle{
+	
+	font-family: 'Muli';
+	text-transform: uppercase;
+	height: 500px;
+	background-color: rgba(78, 127, 129, 1);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.ulmiddle{
+	list-style: none;
+
+}
+
+.limiddle{
+	border: 2px solid white;
+	margin: 80px;
+	padding: 20px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 150%;
+}
+.Shrimponda{
+	background-image: url("boat.jpg");
+	background-size: cover;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+.cruiseWith{
+	font-family: 'Alex Brush', cursive;
+	font-size: 70px;
+	color: rgb(211, 174, 101);
+	font-weight: bolder;
+	text-align: center;
+	margin: ;
+	padding-top: 20px;
+	text-shadow: 2px 2px black;
+}
+.downUnder{
+	font-family: 'Muli';
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: ;
+	text-shadow: 4px 4px black;
+}
+.learnMore{
+	color: white;
+	border-color: white;
+	border-width: 2px;
+	font-family: 'Muli';
+}
+h4{
+	font-family: 'Crimson Text';
+	font-style: italic;
+	text-align: left;
+	width: 350px;
+	left: -40px;
+}
+.enjoy{
+	margin: -10px 0 15px 0;
+}
+footer{
+	background-color: rgb(51, 51, 51);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+
+}
+.contact{
+	margin: 20px 15px;
+	text-align: left;
+}
+.social{
+	display: flex;
+	flex-direction: row;
+	justify-content: ;
+	align-items: ;
+}
+img{
+	color: white;
+	height: 30px;
+	width: 30px;
+	filter: invert(100%);
+	margin-left: 20px;
+
+}
+.foot{
+	color: white;
+	font-size: 10px;
+	font-family: 'Crimson Text', serif;
+	margin: 10px 10px 0px 10px;
+	text-align: left;
+}
