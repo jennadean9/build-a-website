@@ -312,11 +312,12 @@ img{
 		display: none;
 	}
 	.topbar{
-		display: flex;
-		justify-content: space-between;
+	
 	}
 	#dropDown{
 		font-size: 20px;
+		display: flex;
+		justify-content: space-between;
 	}
 	#contact{
 		align-self: flex-end;
