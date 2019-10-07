@@ -71,7 +71,7 @@ li{
 	font-family: 'Muli';
 	font-size: 14px;
 }
-#menu{	
+.menu{	
 	border: 2px;
 	border-color: rgba(51, 51, 51, 0.8);
 	padding: 10px;
@@ -79,10 +79,10 @@ li{
 	background-color: (51, 51, 51, 0.8)
 }
 
-#menu:hover{
+.menu:hover{
 	color: rgba(51, 51, 51, 0.9);
 	border: 2px;
-	/*border-color: white;
+/*	border-color: white;
 	background-color: white;
 	padding: 10px;*/
 }
